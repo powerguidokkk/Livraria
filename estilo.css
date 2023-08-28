@@ -1,11 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 * {
+    font-family: open sans;
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; }
 
 body {
     font-family: Arial, sans-serif; 
-    background-color: #f0f0f0;
+    background-color:aquamarine;
 }
 header {
     background-color:rgb(14, 77, 77); 
@@ -19,6 +24,7 @@ nav ul {
  nav li:hover {
     background-color: rgb(9, 97, 68);
     border-radius: 8px;
+    padding: 4px;
 }
 nav li{
     display: inline; 
